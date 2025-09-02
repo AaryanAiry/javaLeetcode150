@@ -1,0 +1,17 @@
+public backtrack(params){
+
+        if base_case_condition{
+            results.append(copy of soln)
+            return
+        }
+
+        for choice in choices{
+            if violates constraints
+                continue;
+
+
+            makeChoice
+            backtrack(updated params)
+            undoChoice
+
+        }
