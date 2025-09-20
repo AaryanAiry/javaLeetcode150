@@ -1,7 +1,7 @@
 //Kadane's Algorithm: 
 // localMax = max(arr[i],localMax+arr[i])
 
-class Solution {
+class MaxSubarray {
     public int maxSubArray(int[] nums) {
         int n = nums.length;
         int maxSum = nums[0];
