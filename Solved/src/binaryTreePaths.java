@@ -13,7 +13,7 @@ public class TreeNode {
    }
  }
  
-class Solution {
+class binaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<>();
         if (root != null) {
